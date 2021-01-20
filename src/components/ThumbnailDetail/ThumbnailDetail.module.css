@@ -1,0 +1,13 @@
+.thumbnailWrap {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+    /* border: 1px solid; */
+    overflow: hidden;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.thumbnailWrap img {
+    width: 100%;
+}
