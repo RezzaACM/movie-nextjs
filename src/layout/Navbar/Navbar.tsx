@@ -50,7 +50,7 @@ const Navbar = (props: Props) => {
             <div className={Style.myNavbar__list}>
                 <div className={Style.listNavbar}>
                     <Link href={'/heroes'} >Hero</Link>
-                    <Link href={'/news'} >News</Link>
+                    {/* <Link href={'/news'} >News</Link> */}
                     <Link href='http://www.twitter.com/rezzaacm' ><a onClick={() => window.location.href = 'http://www.twitter.com/rezzaacm'}>twitter</a></Link>
                 </div>
             </div>

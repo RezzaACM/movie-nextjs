@@ -14,7 +14,7 @@ const MovieCard = (props: Props) => {
     return (
         <div className={Style.movieCard}>
             <div className={Style.movieCard__thumbnail}>
-                <img src={props.image} />
+                <img loading="lazy" src={props.image} />
             </div>
             <div className={Style.movieCard__info}>
                 <div className={Style.infoMovie}>
